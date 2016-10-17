@@ -44,3 +44,8 @@ MyScammer = Scammer(scam_file, voices, initial_wait_time, min_wait, max_wait, re
 # Get some scams
 MyScammer.run_scam()
 ```
+
+Triggering over a network
+-------------------------
+
+Partially implemented. Halted because I don't have a Mac for testing.
