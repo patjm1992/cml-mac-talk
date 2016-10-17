@@ -1,7 +1,7 @@
-SSSS
+cml-mac-talk
 ====
+A practical joke taken way too far.
 
-**S**imple **S**ocket **S**cam **S**erver.
 
 
         												_________________
@@ -44,19 +44,3 @@ MyScammer = Scammer(scam_file, voices, initial_wait_time, min_wait, max_wait, re
 # Get some scams
 MyScammer.run_scam()
 ```
-
-To trigger sayings over a network:
-
-```python
-''' Not fully implemented yet. '''
-```
-
-TODO
-----
-
-* Variable/file renaming
-* Testing triggering over network
-* Remove 'scam' terminology
-* PEP 8
-* Add 'About'
-* Web interface
