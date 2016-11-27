@@ -30,6 +30,9 @@ A practical joke taken way too far.
 						                         |  ---  |
 						                         \_______/
 
+
+This collection of scripts provides a simple way to configure your Mac to talk to you (more like talk *at* you, there's no trace of AI here). It's kinda fun to set this thing off in a quiet library with enough of a time interval to find a secluded spot to watch the resulting reactions.
+
 Usage
 -----
 
@@ -45,7 +48,10 @@ MyScammer = Scammer(scam_file, voices, initial_wait_time, min_wait, max_wait, re
 MyScammer.run_scam()
 ```
 
+Just fill `sayings.txt` with whatever you want to/want others to hear. You'll/They'll hear it, this program jacks up the volume right before firing off a saying.
+
+
 Triggering over a network
 -------------------------
 
-Partially implemented. Halted because I don't have a Mac for testing.
+Partially implemented. Halted because I don't have a Mac for testing the Mac voice thing.
